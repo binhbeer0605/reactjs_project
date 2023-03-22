@@ -1,0 +1,27 @@
+.nav-list {
+    display: flex;
+    align-items: center;
+
+    height: var(--height-navbar);
+}
+
+.nav-item {
+    height: var(--height-navbar);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+
+    &.active,
+    &:hover {
+        color: #ff6533;
+    }
+}
+
+.logo-branch {
+    height: var(--height-navbar);
+    object-fit: cover;
+}
+
+.icon {
+    margin-right: 5px;
+}

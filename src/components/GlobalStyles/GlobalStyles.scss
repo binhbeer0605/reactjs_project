@@ -1,0 +1,47 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    // FONT-FAMILY
+    --font-family: 'JetBrains Mono', monospace;
+    // COLOR
+    --primary: #ff6533;
+    --black: #333;
+    --white: #fff;
+    // HEIGHT, WIDTH
+    --height-navbar: 56px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: var(--font-family);
+    background-color: #030303da;
+    color: var(--white);
+}
+
+html {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.line {
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 1px auto 10px;
+    background-color: var(--primary);
+}

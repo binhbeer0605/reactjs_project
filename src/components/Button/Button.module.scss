@@ -1,0 +1,41 @@
+.button {
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid black;
+    transition-duration: 1s;
+
+    &:hover {
+        width: 250px;
+        color: black;
+        transition-duration: 1s;
+    }
+}
+
+.button_type_one {
+    background-color: #ff854c;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.button_type_two {
+    background-color: orangered;
+    margin-left: 10px;
+    &:hover {
+        background-color: rgb(232, 174, 13);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
